@@ -1,0 +1,34 @@
+<div class="profile">
+  <img [src]="profile.photo" alt="{{ profile.name }}" class="profile-photo" />
+  <h1>{{ profile.name }}</h1>
+  <p>{{ profile.description }}</p>
+</div>
+<div class="sections">
+  @for (section of sections; track $index) {
+  <div class="section">
+    <h3>{{ section.title }}</h3>
+    <div class="links">
+      @for (link of section.links; track $index) {
+      <a [href]="link.url" target="_blank">
+        <div class="card">
+          <div class="card-avatar">
+            <img [src]="link.photo | defaultLogo" alt="Logo" class="avatar" />
+          </div>
+          <div class="card-content">
+            <h3>{{ link.title }}</h3>
+            <p>{{ link.description || 'Descripción'}}</p>
+            @if(link.tags && link.tags.length && tagsShow ) {
+            <div class="tags">
+              @for (tag of link.tags; track $index) {
+              <span class="tag {{ tag | slugify }}">{{ tag }}</span>
+              }
+            </div>
+            }
+          </div>
+        </div>
+      </a>
+      }
+    </div>
+  </div>
+  }
+</div>

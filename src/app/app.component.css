@@ -1,0 +1,9 @@
+.container-fluid {
+    margin: 1rem auto;
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  padding-right: 15px; /* Espaciado interno derecho */
+  padding-left: 15px; /* Espaciado interno izquierdo */
+  margin-right: auto; /* Centrar contenido horizontalmente */
+  margin-left: auto; /* Centrar contenido horizontalmente */
+  box-sizing: border-box; /* Incluye los paddings en el cálculo del tamaño */
+}
