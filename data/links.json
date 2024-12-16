@@ -1,0 +1,105 @@
+{
+  "profile": {
+    "name": "Anartz Mugika Ledo",
+    "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+    "description": "Descripción breve sobre ti"
+  },
+  "sections": [
+    {
+      "title": "Contacto",
+      "links": [
+        {
+          "title": "LinkedIn",
+          "description": "",
+          "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+          "url": "https://linkedin.com/in/tu-perfil",
+          "icon": "linkedin",
+          "tags": [
+            "Profesional"
+          ]
+        },
+        {
+          "title": "Twitter",
+          "description": "",
+          "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+          "url": "https://twitter.com/tu-perfil",
+          "icon": "twitter",
+          "tags": [
+            "Actualizaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Proyectos",
+      "links": [
+        
+        {
+          "title": "KM a KM: Disfrutando del Camino",
+          "description": "\"Km a Km: Disfrutando del Camino\" es un podcast donde comparto mi aventura en el mundo del running. Desde crónicas de carreras hasta lecciones aprendidas, exploro el desafío de correr 100,000 km en 20 años entre muchas otras cosas más que os van a interesar",
+          "url": "https://creators.spotify.com/pod/show/km-a-km",
+          "photo": "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/staging/podcast_uploaded_nologo400/42094772/42094772-1727458597009-da5e4f0129167.jpg",
+          "icon": "github",
+          "tags": ["Podcast", "Running"]
+        },
+        {
+          "title": "Track Navigator",
+          "description": "La herramienta que te ayuda a planificar de manera eficaz y rápida cualquier objetivo deportivo y/o de ocio",
+          "url": "https://track-navigator-official.netlify.app/",
+          "photo": "https://raw.githubusercontent.com/mugan86/track-navigator-tracks/master/assets/images/home1.png",
+          "icon": "github",
+          "tags": ["Podcast", "Running"]
+        },
+        {
+          "title": "Generador de Geles",
+          "description": "Seleccionar el tipo de gel, número, su textura y cantidad de carbohidratos por gel, para configurar los ingredientes necesarios con sus ingredientes correspondientes para crear geles de diferentes proporciones",
+          "url": "https://mugan86.github.io/energy-gels-and-bottles/",
+          "photo": "",
+          "icon": "github",
+          "tags": ["Calculadora", "Running", "Nutrición"]
+        }
+      ]
+    },
+    {
+      "title": "Formación (Libros, Blog, Cursos Online,...)",
+      "links": [
+        {
+          "title": "Dominando Qwik desde 0 hasta producción",
+          "description": "",
+          "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+          "url": "https://anartz-mugika.com/qwik-book/es/",
+          "icon": "school",
+          "tags": [
+            "Qwik",
+            "Javascript",
+            "Typescript",
+            "Código incluido",
+            "Gratis"
+          ]
+        },
+        {
+          "title": "Blog Desarrollo / Formación",
+          "description": "",
+          "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+          "url": "https://medium.com/@mugan86",
+          "icon": "blog",
+          "tags": [
+            "Nuevo"
+          ]
+        },
+        {
+          "title": "Curso de JavaScript",
+          "description": "",
+          "photo": "https://miro.medium.com/v2/resize:fill:500:500/1*V7PIOoevMu5s2hfV1jcsJw.jpeg",
+          "url": "https://javascript.info",
+          "icon": "code",
+          "tags": [
+            "Popular"
+          ]
+        }
+      ]
+    }
+    
+    
+  ]
+}
