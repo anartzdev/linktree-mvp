@@ -1,7 +1,9 @@
-@if(profile) {
+@if(profile && config) {
 <div class="profile">
   <img [src]="profile.photo" alt="{{ profile.name }}" class="profile-photo" />
-  <h1>{{ profile.name }}</h1>
+  <h1 [ngStyle]="{
+    'color': config.textColor
+  }" class="container-fluid full-height">{{ profile.name }}</h1>
   <p>{{ profile.description }}</p>
 </div>
 }
