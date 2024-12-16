@@ -1,13 +1,16 @@
+@if(profile) {
 <div class="profile">
   <img [src]="profile.photo" alt="{{ profile.name }}" class="profile-photo" />
   <h1>{{ profile.name }}</h1>
   <p>{{ profile.description }}</p>
 </div>
+}
+
 <div class="sections">
   @for (section of sections; track $index) {
   <div class="section">
     <h3>{{ section.title }}</h3>
-    <div class="links">
+    <div class="links card-container">
       @for (link of section.links; track $index) {
       <a [href]="link.url" target="_blank">
         <div class="card">

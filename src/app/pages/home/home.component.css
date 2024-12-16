@@ -24,15 +24,22 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Una columna por defecto */
+}
+
 .card {
   display: flex; /* Flexbox para alinear el avatar y el contenido */
   align-items: center; /* Alinear verticalmente */
-  background-color: #f0f0f0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
   border-radius: 8px;
-  padding: 10px;
-  gap: 15px; /* Espaciado entre el avatar y el contenido */
-  margin: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 15px; /* Espaciado entre el avatar y el contenido */
+  padding: 10px;
+  margin: 1rem;
 }
 
 .card-avatar {
@@ -115,5 +122,14 @@
   .tag {
     font-size: 10px; /* Texto más pequeño en pantallas pequeñas */
     padding: 3px 8px; /* Reduce el tamaño del relleno */
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en pantallas grandes */
   }
 }

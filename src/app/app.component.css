@@ -1,9 +1,22 @@
+:host {
+  display: block; /* Para asegurar que el componente ocupa el bloque completo */
+  height: 100%;   /* Ocupa el 100% de altura del padre */
+}
+
 .container-fluid {
-    margin: 1rem auto;
+    padding-top: 1rem;
   width: 100%; /* Ocupa el 100% del ancho disponible */
   padding-right: 15px; /* Espaciado interno derecho */
   padding-left: 15px; /* Espaciado interno izquierdo */
   margin-right: auto; /* Centrar contenido horizontalmente */
   margin-left: auto; /* Centrar contenido horizontalmente */
   box-sizing: border-box; /* Incluye los paddings en el cálculo del tamaño */
+}
+
+
+
+.full-height {
+  min-height: 100vh; /* Ocupa al menos toda la altura visible */
+  display: flex;
+  flex-direction: column;
 }
